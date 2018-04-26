@@ -1,0 +1,186 @@
+/* Mobile */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+@media only screen and (max-width: 767px) {
+    [class*="mobile hidden"],
+    [class*="tablet only"]:not(.mobile),
+    [class*="computer only"]:not(.mobile),
+    [class*="large monitor only"]:not(.mobile),
+    [class*="widescreen monitor only"]:not(.mobile),
+    [class*="or lower hidden"] {
+      display: none !important;
+    }
+  }
+  
+  
+  /* Tablet / iPad Portrait */
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    [class*="mobile only"]:not(.tablet),
+    [class*="tablet hidden"],
+    [class*="computer only"]:not(.tablet),
+    [class*="large monitor only"]:not(.tablet),
+    [class*="widescreen monitor only"]:not(.tablet),
+    [class*="or lower hidden"]:not(.mobile) {
+      display: none !important;
+    }
+  }
+  
+  
+  /* Computer / Desktop / iPad Landscape */
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    [class*="mobile only"]:not(.computer),
+    [class*="tablet only"]:not(.computer),
+    [class*="computer hidden"],
+    [class*="large monitor only"]:not(.computer),
+    [class*="widescreen monitor only"]:not(.computer),
+    [class*="or lower hidden"]:not(.tablet):not(.mobile) {
+      display: none !important;
+    }
+  }
+  
+  
+  /* Large Monitor */
+  
+  @media only screen and (min-width: 1200px) and (max-width: 1919px) {
+    [class*="mobile only"]:not([class*="large monitor"]),
+    [class*="tablet only"]:not([class*="large monitor"]),
+    [class*="computer only"]:not([class*="large monitor"]),
+    [class*="large monitor hidden"],
+    [class*="widescreen monitor only"]:not([class*="large monitor"]),
+    [class*="or lower hidden"]:not(.computer):not(.tablet):not(.mobile) {
+      display: none !important;
+    }
+  }
+  
+  
+  /* Widescreen Monitor */
+  
+  @media only screen and (min-width: 1920px) {
+    [class*="mobile only"]:not([class*="widescreen monitor"]),
+    [class*="tablet only"]:not([class*="widescreen monitor"]),
+    [class*="computer only"]:not([class*="widescreen monitor"]),
+    [class*="large monitor only"]:not([class*="widescreen monitor"]),
+    [class*="widescreen monitor hidden"],
+    [class*="widescreen monitor or lower hidden"] {
+      display: none !important;
+    }
+  }
+
+.fill-viewport-40 {
+    min-height: 25vh; 
+    
+  }
+
+.logo{
+    margin-top: 50px;
+    height: 100px;
+    width: 215px;
+
+}
+#blueimg{
+    background: linear-gradient(rgba(18, 4, 80, 0.411), rgba(0,0,0,0.8)), url('https://preview.ibb.co/fiZprx/space_desk_office_hero_7065.jpg') 0% 0%/cover 
+   
+}
+.blue{
+    
+    background-color: #160958;
+}
+
+
+.inline{
+    display: inline;
+}
+.text{
+    margin-top: 50px;
+    float: right;
+    color: white;
+    font-weight: 250px;
+    font-size: 18px;
+}
+
+.noborder{
+   border-color: #160958;
+}
+
+.fill-viewport-75{
+    min-height: 15vh; 
+    
+}
+
+.hellomargin{
+    margin-top:70px;
+    margin-left: 70px;
+}
+
+.fillviewport {
+    min-height: 100vh
+  }
+
+  #info-3 {
+    background: linear-gradient(rgba(179, 155, 141, 0.712), rgba(0,0,0,0.8)),url(images/image2.jpg) 0% 0%/cover;
+  }
+
+  .logo2{
+    margin-top: 270px;
+    height: 150px;
+    width: 315px;
+
+}
+.bout{
+    border: 1px solid white;
+}
+
+.fillviewport-35 {
+    min-height: 35vh;
+  }
+
+.about{
+    text-align: center;
+}
+.about h1{
+    color:white;
+    margin-top: 70px;
+}
+
+#info-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0,0,0,0.8)),url(images/image2.jpg) 0% 0%/cover;
+  }
+
+
+#info-5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0,0,0,0.8)),url(images/M4L-39.jpg) 0% 0%/cover;
+  }
+.margintop60{
+    margin-top: 40px;
+   
+}
+.marginbottpm20{
+    margin-bottom: 20px;
+}
+
+.fillviewport-60 {
+    min-height: 55vh;
+  }
+
+.margintop40{
+    margin-top: 40px;
+}
+.bradius{
+    border-radius: 5px;
+}
+
+.maxwidth{
+    max-width: 100%;
+}
+.marginright20{
+    padding: 20px;
+    margin: 5px;
+}
+
+
+#info-6 {
+    background: linear-gradient(rgba(255, 255, 255, 0.924), rgba(255, 255, 255, 0.911)),url(images/M4L-32.jpg) 0% 0%/cover;
+  }
