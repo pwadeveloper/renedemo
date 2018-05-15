@@ -81,7 +81,7 @@ body{
 
 }
 #blueimg{
-    background: linear-gradient(rgba(18, 4, 80, 0.411), rgba(0,0,0,0.8)), url('https://preview.ibb.co/fiZprx/space_desk_office_hero_7065.jpg') 0% 0%/cover 
+    background: linear-gradient(rgba(84, 83, 86, 0.411), rgba(228, 225, 225, 0.561)), url('https://preview.ibb.co/fiZprx/space_desk_office_hero_7065.jpg') 0% 0%/cover 
    
 }
 .blue{
@@ -124,7 +124,7 @@ body{
   }
 
   .logo2{
-    margin-top: 270px;
+    margin-top: 150px;
     height: 150px;
     width: 315px;
 
@@ -158,12 +158,23 @@ body{
    
 }
 .marginbottpm20{
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
+.nopad{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
 .fillviewport-60 {
     min-height: 55vh;
   }
+
+
+.fillviewport-30 {
+    min-height: 20vh;
+  }
+
 
 .margintop40{
     margin-top: 40px;
